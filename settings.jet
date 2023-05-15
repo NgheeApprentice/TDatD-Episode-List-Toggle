@@ -1,0 +1,141 @@
+{
+    "rows": 8,
+    "items": [
+        {
+            "title": "VOLUME",
+            "type": "Range",
+            "clip": "EverydaySliderWidget",
+            "source": "Volume",
+            "step": 0.1,
+            "description": "VOLUME_DESCRIPTION"
+        },
+        {
+            "title": "VOLUME_HOST",
+            "type": "Range",
+            "clip": "EverydaySliderWidget",
+            "source": "VolumeHost",
+            "step": 0.1,
+            "description": "VOLUME_HOST_DESCRIPTION"
+        },
+        {
+            "title": "VOLUME_SFX",
+            "type": "Range",
+            "clip": "EverydaySliderWidget",
+            "source": "VolumeSfx",
+            "step": 0.1,
+            "description": "VOLUME_SFX_DESCRIPTION"
+        },
+        {
+            "title": "VOLUME_MUSIC",
+            "type": "Range",
+            "clip": "EverydaySliderWidget",
+            "source": "VolumeMusic",
+            "step": 0.1,
+            "description": "VOLUME_MUSIC_DESCRIPTION"
+        },
+        {
+            "title": "FULL_SCREEN",
+            "type": "Toggle",
+            "clip": "EverydayToggleWidget",
+            "source": "FullScreen",
+            "description": "FULL_SCREEN_DESCRIPTION"
+        },
+        {
+            "title": "AUDIENCE_MODE",
+            "type": "Toggle",
+            "clip": "EverydayToggleWidget",
+            "source": "AudienceOn",
+            "description": "AUDIENCE_MODE_DESCRIPTION"
+        },
+        {
+            "title": "PASSWORD_PROTECTED",
+            "type": "Password",
+            "clip": "EverydayPasswordWidget",
+            "source": "PasswordedRoom",
+            "password": "PASSWORD_PROTECTED_LABEL",
+            "description": "PASSWORD_PROTECTED_DESCRIPTION"
+        },
+        {
+            "title": "SKIP_TUTORIALS",
+            "type": "Toggle",
+            "clip": "EverydayToggleWidget",
+            "source": "SkipTutorial",
+            "description": "SKIP_TUTORIALS_DESCRIPTION"
+        },
+        {
+            "title": "FAMILY_FRIENDLY",
+            "type": "Toggle",
+            "clip": "EverydayToggleWidget",
+            "source": "FamilyFriendly",
+            "description": "FAMILY_FRIENDLY_DESCRIPTION"
+        },
+        {
+            "title": "TWITCH_REQUIRED",
+            "type": "Toggle",
+            "clip": "EverydayToggleWidget",
+            "source": "RequireTwitch",
+            "description": "TWITCH_REQUIRED_DESCRIPTION"
+        },
+        {
+            "title": "POSTGAME_SHARING",
+            "type": "Toggle",
+            "clip": "EverydayToggleWidget",
+            "source": "PostGameSharing",
+            "description": "POSTGAME_SHARING_DESCRIPTION"
+        },
+        {
+            "title": "START_GAMEPAD",
+            "type": "Toggle",
+            "clip": "EverydayToggleWidget",
+            "source": "GamepadStart",
+            "description": "START_GAMEPAD_DESCRIPTION"
+        },
+        {
+            "title": "HIDE_ROOM_CODE",
+            "type": "Toggle",
+            "clip": "EverydayToggleWidget",
+            "source": "HideRoomCode",
+            "description": "HIDE_ROOM_CODE_DESCRIPTION"
+        },
+        {
+            "title": "SUBTITLES",
+            "type": "Toggle",
+            "clip": "EverydayToggleWidget",
+            "source": "Subtitles",
+            "description": "SUBTITLES_DESCRIPTION"
+        },
+        {
+            "title": "MAX_PLAYERS",
+            "type": "List",
+            "clip": "EverydayListWidget",
+            "source": "MaxPlayers",
+            "options": [3,4,5,6,7,8],
+            "defaultValueIndex": 5,
+            "description": "MAX_PLAYERS_DESCRIPTION"
+        },
+        {
+            "title": "TARGET_MULTIPLIER",
+            "type": "List",
+            "clip": "EverydayWideListWidget",
+            "source": "TargetMultiplierString",
+            "options": [
+                    "TARGET_MULTIPLIER_VERY_EASY",
+                    "TARGET_MULTIPLIER_EASY",
+                    "TARGET_MULTIPLIER_NORMAL",
+                    "TARGET_MULTIPLIER_HARD",
+                    "TARGET_MULTIPLIER_DEMONIC",
+                    "TARGET_MULTIPLIER_IMPOSSIBLE"
+            ],
+            "defaultValueIndex": 2,
+            "localizedOptions": true,
+            "description": "TARGET_MULTIPLIER_DESCRIPTION"
+        },
+        {
+            "title": "DEBUG_EPISODES",
+            "type": "Toggle",
+            "clip": "EverydayToggleWidget",
+            "source": "DebugEpisodes",
+            "description": "DEBUG_EPISODES_DESCRIPTION"
+        }
+    ]
+}
