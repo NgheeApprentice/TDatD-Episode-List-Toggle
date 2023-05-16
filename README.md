@@ -11,4 +11,5 @@ The progress widget will max out of entries at 30 episodes. No more than that. M
 Since there are nine test/debug episodes, it would take 21 additional loaded episodes with SET CHOOSABLE to FALSE to cap out the debug/test episode list in the progress widget. That really shouldn't be a problem unless you are a custom Devil's madman.
 Another thing to note is that regardless of what episode list is currently active, every episode is loaded upon start up. Meaning that dev-console commands 'forceEpisodeId(param1:String):void' and 'forceEpisodeIdWithEpisodeIntro(param1:String):void' will continue to force the inputted episode no matter what episode list is active. These dev-console commands can still be used freely.
 
-### Thanks for checking out this simple mod! I hope it can prove semi useful, at least.
+### Thanks for checking out this simple mod!
+While this is a very niche mod concept for a very select few people, I still hope you find use in it! Be sure to check out my Youtube channel, if you haven't already, and thanks for taking a look at this mod!
