@@ -134,7 +134,7 @@
             "title": "DEBUG_EPISODES",
             "type": "Toggle",
             "clip": "EverydayToggleWidget",
-            "source": "DebugEpisodes",
+            "source": "EverydayDebugEpisodes",
             "description": "DEBUG_EPISODES_DESCRIPTION"
         }
     ]
