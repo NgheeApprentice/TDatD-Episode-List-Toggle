@@ -13,3 +13,6 @@ Another thing to note is that regardless of what episode list is currently activ
 
 ### Thanks for checking out this simple mod!
 While this is a very niche mod concept for a very select few people, I still hope you find use in it! Be sure to check out my Youtube channel, if you haven't already, and thanks for taking a look at this mod!
+
+## v.1.01 Hotfix with The Jackbox Megapicker support
+So, with the pack updates surrounding support for The Jackbox Megapicker, many swf mods created before this update before this update became defunct. This hotfix ports the mod over to the update and is now supported by The Jackbox Party Pack 7 and The Jackbox Megapicker
